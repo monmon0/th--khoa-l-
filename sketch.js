@@ -64,14 +64,14 @@ function draw() {
 class Particle {
 
   constructor() {
-    this.r = 16;
+    this.r = width/90;
     this.a = random(0,TWO_PI);
     this.x = this.r * 16 * pow(sin(this.a), 3);
-    this.y = -this.r*(13 * cos(this.a) - 5*cos(2*this.a) - 2 * cos(3*this.a) - cos(4*this.a));
+    this.y = -this.r*(13 * cos(this.a) - 5*cos(2*this.a) - 2 * cos(3*this.a) - cos(4*this.a)) - width/90;
     this.vx = sin(this.a)
     this.vy = -cos(this.a);
     this.alpha = 255;
-    this.size = 5;
+    this.size = width/200;
   }
 
   finished() {
