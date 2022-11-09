@@ -6,9 +6,9 @@ let img;
 let mon;
 let rickRoll;
 function preload() {
-  img = loadImage('/././heart1.png');
-  mon = loadImage('/././mon.png');
-  rickRoll = loadSound('/././rick.mp3');
+  img = loadImage('heart1.png');
+  mon = loadImage('mon.png');
+  rickRoll = loadSound('rick.mp3');
 }
 
 
