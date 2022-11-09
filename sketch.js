@@ -64,7 +64,7 @@ function draw() {
 class Particle {
 
   constructor() {
-    this.r = 12;
+    this.r = 16;
     this.a = random(0,TWO_PI);
     this.x = this.r * 16 * pow(sin(this.a), 3);
     this.y = -this.r*(13 * cos(this.a) - 5*cos(2*this.a) - 2 * cos(3*this.a) - cos(4*this.a));
