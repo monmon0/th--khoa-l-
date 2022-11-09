@@ -5,17 +5,18 @@ const particles = [];
 let img;
 let mon;
 let rickRoll;
+
 function preload() {
   img = loadImage('heart1.png');
   mon = loadImage('mon.png');
-  rickRoll = loadSound('rick.mp3');
+  // rickRoll = loadSound('rick.mp3');
 }
 
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  rickRoll.play();
-  rickRoll.loop();
+  // rickRoll.play();
+  // rickRoll.loop();
 }
 
 function draw() {
