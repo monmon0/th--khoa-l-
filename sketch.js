@@ -9,6 +9,8 @@ let rickRoll;
 function preload() {
   img = loadImage('heart1.png');
   mon = loadImage('mon.png');
+  monBG = loadImage('bg.png');
+  
   // rickRoll = loadSound('rick.mp3');
 }
 
@@ -21,9 +23,10 @@ function setup() {
 
 function draw() {
 
-  background(0);
 
   tint(255,255);
+  background(monBG);
+
   image(mon, width/2 - width/10, height/2-width/10, width/5, width/5);
 
   translate(width/2, height/2);
